@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"
+    android:padding="24dp"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/new_logo"
+        android:contentDescription="Das Cafe Logo"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Das Cafe"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FF6F00"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cafe POS System"
+        android:textSize="16sp"
+        android:textColor="#AAAAAA"/>
+</LinearLayout>

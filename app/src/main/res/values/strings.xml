@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Das Cafe</string>
+    <string-array name="payment_methods">
+        <item>cash</item>
+        <item>card</item>
+        <item>transfer</item>
+    </string-array>
+</resources>
