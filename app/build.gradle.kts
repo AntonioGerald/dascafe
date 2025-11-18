@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.boocafe"
+    namespace = "com.example.dascafe"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.boocafe"
+        applicationId = "com.example.dascafe"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
